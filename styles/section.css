@@ -1,0 +1,23 @@
+.section-header {
+    padding: var(--spacer-8) 0
+}
+
+@media(max-width: 63.9375rem) {
+    .section-header {
+        padding-bottom:var(--spacer-5)
+    }
+}
+
+.section-header .custom-button.glue-button.custom-button--gradient {
+    color: #fff
+}
+
+[partial=SectionHeader]+[partial=MaskAsset] .mi__wrap {
+    padding-top: var(--spacer-2)
+}
+
+@media(max-width: 63.9375rem) {
+    [partial=SectionHeader]+[partial=MaskAsset] .mi__wrap {
+        padding-top:var(--spacer-3)
+    }
+}
